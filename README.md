@@ -8,6 +8,7 @@ The diodes are driven from port "H" bits 6 and 7.
 Depending on the connection, they can be active in the low or high state.
 See attached picture 'T95_leds.jpg'.
 Your DTS file must contain a declaration:
+
 	leds {
 		compatible = "gpio-leds";
 
